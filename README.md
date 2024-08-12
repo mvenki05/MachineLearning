@@ -1,11 +1,3 @@
-Time-Series-Analysis
-Basic time series analysis and forecasting.
+The project involved basic time series analysis and forecasting using a dataset containing monthly air passenger numbers from 1949 to 1960. The data demonstrated both an upward trend and seasonal patterns.
 
-Dataset
-The dataset schema contains the number of air passengers from 1949 to 1960 for every month. The data exhibited both an increasing trend and seasonality.
-
-Model Building
--Training has been done with an Manual ARIMA model and techniques like moving average and differencing were used to convert the available time series into a stationary time series.
-
-Implemented Auto ARIMA model to consider the seasonality factor and to select the optimized value for ARIMA(p,d,q).
-The final prediction had an RMSE of 52. 1841
+For model development, a manual ARIMA model was trained, incorporating techniques like moving average and differencing to transform the time series into a stationary form. Additionally, an Auto ARIMA model was implemented to account for seasonality and automatically select the optimal ARIMA(p,d,q) parameters. The final prediction achieved a Root Mean Square Error (RMSE) of 52.1841.
